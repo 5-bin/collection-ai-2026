@@ -20,19 +20,19 @@ def main() :
 
     shuffle(cards)
 
-    with open("斗地主发牌/player1.txt", "w", encoding= "UTF-8") as file :
+    with open("Bonus-基础/8-斗地主发牌/player1.txt", "w", encoding= "UTF-8") as file :
         for i in range(0, 17) :
             file.write(cards[i])
             file.write(' ')
-    with open("斗地主发牌/player2.txt", "w", encoding= "UTF-8") as file :
+    with open("Bonus-基础/8-斗地主发牌/player2.txt", "w", encoding= "UTF-8") as file :
             for i in range(17, 34) :
                 file.write(cards[i])
                 file.write(' ')
-    with open("斗地主发牌/player3.txt", "w", encoding= "UTF-8") as file :
+    with open("Bonus-基础/8-斗地主发牌/player3.txt", "w", encoding= "UTF-8") as file :
             for i in range(34, 51) :
                 file.write(cards[i])
                 file.write(' ')
-    with open("斗地主发牌/others.txt", "w", encoding= "UTF-8") as file :
+    with open("Bonus-基础/8-斗地主发牌/others.txt", "w", encoding= "UTF-8") as file :
             for i in range(51, 54) :
                 file.write(cards[i])
                 file.write(' ')
