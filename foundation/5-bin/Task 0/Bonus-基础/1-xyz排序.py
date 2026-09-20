@@ -16,4 +16,3 @@ if y < z :
     z = tempy
 
 print(x, y, z)
-    

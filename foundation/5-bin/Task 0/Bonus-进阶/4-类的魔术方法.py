@@ -17,7 +17,7 @@ class MyZoo:
 
     def __len__(self):
         return sum(self.animals.values())
-    
+
 def main():
     myzooo1 = MyZoo({'pig': 5, 'monkey': 10})
     myzooo2 = MyZoo()

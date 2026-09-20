@@ -2,7 +2,7 @@ class Product :
     """
     商品类
     """
-    __number = 0 
+    __number = 0
     __name = ''
     __price = 0
     __total = 0
@@ -25,7 +25,7 @@ class Product :
         print(self.__number, self.__name, self.__price,
               self.__total, self.__leftnum ,end = ' ')
         print('')
-    
+
     def income(self) :
         """
         计算商品销售收入

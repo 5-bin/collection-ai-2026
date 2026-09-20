@@ -6,6 +6,6 @@ def main():
     list2 = [[list1[i][j] for i in range(0,5)] for j in range(0,10)]
     for i in range(0,10):
         print(list2[i])
-        
+
 if __name__ == "__main__":
     main()
